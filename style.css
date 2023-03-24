@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin:0
+}
+
+/* navigation bar */
+
+nav {
+    background-color: #5865f2;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 40px;
+}
+
+#navBarLogo {
+    width: 134px;
+    height: 25px;
+    padding: 5px;
+}
+
+#navBarLinkWrapper a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 30px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.button {
+    text-align:center;
+    padding: 7px 16px;
+    border-radius: 100px;
+    border: none;
+    font-size: 14px;
+}
+
+/* page 1 */
+
+#page1Header {
+    text-align: center;
+    font-size: 56px;
+    color: white;
+    font-weight: bold;
+}
+
+#page1Text {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 40px;
+    color: white;
+    width: 870px;
+}
+
+#textBackground {
+    background-color: #5865f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(200px);
+    text-align: center;
+}
+
+.windows {
+    text-align:center;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    transform: translateY(200px);
+}
+
+.open {
+    align-items:center;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transform: translateY(200px);
+}
+
+.class {
+    padding: 140px 20px;
+}
+
+#sec1-1 {
+    transform: translateX(-285px)
+}
+
+#sec1-2 {
+    transform: translateX(245px)
+}
+
+#page1Images {
+    background-image: url("./images/Sec-1-bg.png");
+    width: 2560px 626px;
+    display: flex;
+    justify-content: space-between;
+    background-size: contain;
+    background-color: #5865f2;
+}
+
+/* page 2 */
+
+#page2Image {
+    transform: translateX(150px) translateY(120px);
+}
+
+#page2Header {
+    transform: translateX(950px) translateY(-295px);
+    font-size: 46px;
+    width: 400px;
+}
+
+#page2Text {
+    transform: translateX(950px) translateY(-300px);
+    font-size: 20px;
+    width: 425px;
+}
+
+/* page 3 */
+
+#page3 {
+    background-color: rgb(248, 245, 245);
+}
+
+#page3Image {
+    transform: translateX(700px) translateY(100px);
+}
+
+#page3Header {
+    transform: translateX(150px) translateY(-300px);
+    font-size: 46px;
+    width: 400px;
+    font-weight: bold;
+}
+
+#page3Text {
+    transform: translateX(150px) translateY(-300px);
+    font-size: 20px;
+    width: 425px;
+}
+
+/* page 4 */
+
+#page4Image {
+    transform: translateX(150px) translateY(120px);
+}
+
+#page4Header {
+    transform: translateX(950px) translateY(-295px);
+    font-size: 46px;
+    width: 400px;
+    font-weight: bold;
+}
+
+#page4Text {
+    transform: translateX(950px) translateY(-300px);
+    font-size: 20px;
+    width: 430px;
+}
+
+/* page 5 */
+
+#page5 {
+    background-color: whitesmoke;
+    padding:120px 40px 80px;
+}
+
+#page5Header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#page5Text {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 40px;
+    width: 950px;
+    transform: translateX(250px);   
+}
+
+#page5Image {
+    transform: translateX(150px);
+    width: 1180px;
+    height: 715;
+}
+
+#page5Sparkles {
+    transform: translateX(400px) translateY(50px);
+}
+
+#page5Bottom {
+    transform: translateX(450px);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#page5Button {
+    align-items:center;
+    background-color: #5865f2;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transform: translateX(540px);
+}

@@ -1,0 +1,6 @@
+inspect element to see code
+icon in top left to mouse over and see code of specific area
+highlight text and images to see text size and font
+sources > images to find images
+nav bar arrows > application > frames tab is another much easier way
+when an image is open, click the three dots next to the closing button and move the doc to the bottom using the icons to see the image's size
